@@ -1,16 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import Maincontent from './components/Maincontents';
-import Footer from './components/Footer';
+import Cardprofile from './components/Cardprofile';
 
 function App() {
   return (
     <div>
-    <Navigation />
-    <Maincontent />
-    <Footer />
+      <Cardprofile />
     </div>   
       );
     }
